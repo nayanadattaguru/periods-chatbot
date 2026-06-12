@@ -26,7 +26,7 @@ st.markdown("""
         border-radius: 10px;
     }
     </style>
-""", unsafe-allowed_html=True)
+""", unsafe-allowed_html==True)
 
 # --- The Prompts ---
 FAQ_RESPONSES = {
