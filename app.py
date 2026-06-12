@@ -128,15 +128,26 @@ else:
 
 st.divider()
 
-# SECTION CHATBOT
+# --- SECTION 2: CHATBOT ---
 st.header("💬 Ask Monthly Friend")
 st.caption("Type in keywords like *'cramps'*, *'blood is dark'*, *'mood swings'*, or just say *'hi'*!")
 
-# Chat Input Component
+# 1. Initialize chat history in session state if it doesn't exist yet
+if "messages" not in st.session_state:
+    st.session_state.messages = []
+
+# 2. Display all previous messages from history on rerun
+for message in st.session_state.messages:
+    with st.chat_message(message["role"]):
+        st.write(message["content"])
+
+# 3. Handle new user input
 user_query = st.chat_input("Type your question or symptom here...")
 
 if user_query:
-    # Display user message
+    # Add user message to history
+    st.session_state.messages.append({"role": "user", "content": user_query})
+    # Display user message instantly
     with st.chat_message("user"):
         st.write(user_query)
         
@@ -144,7 +155,7 @@ if user_query:
     clean_query = user_query.lower().strip().replace("?", "").replace(".", "")
     
     # Generate bot response
-    bot_response = "I'm not quite sure about that specific phrase. Try asking about symptoms like *cramps*, *heavy flow*, *dark blood*, *bloating*, or *mood swings*!"
+    bot_response = "I'm not quite sure about that specific phrase. Try asking Monthly Friend about symptoms like *cramps*, *heavy flow*, *dark blood*, *bloating*, or *mood swings*!"
     
     # Keyword matching system
     for key, response in FAQ_RESPONSES.items():
@@ -152,10 +163,12 @@ if user_query:
             bot_response = response
             break # Stop at the first matched keyword
             
-    # Display bot response
+    # Add bot response to history
+    st.session_state.messages.append({"role": "assistant", "content": bot_response})
+    # Display bot response instantly
     with st.chat_message("assistant"):
         st.write(bot_response)
 
-# DISCLAIMER(to not trust the AI completely)
+# --- DISCLAIMER ---
 st.divider()
-st.caption("⚠️ **Disclaimer:** Monthly Friend is an informational tool and does not replace professional medical advice.If you experience severe pain, extremely irregular cycles, or have health concerns, please consult a healthcare professional.")
+st.caption("⚠️ **Disclaimer:** Monthly Friend is an informational tool and does not replace professional medical advice. If you experience severe pain, extremely irregular cycles, or have health concerns, please consult a healthcare professional.")
