@@ -46,18 +46,20 @@ FAQ_RESPONSES = {
     "back pain": "Lower back pain during periods is caused by hormonal shifts (progestins). Gentle yoga poses like Child's Pose or Cat-Cow can offer relief.",
     "headache": "Hormonal headaches are common before or during your period due to dropping estrogen levels. Stay hydrated and rest in a dim room.",
     "migraine": "Menstrual migraines can be intense. Avoid bright screens, drink water, and speak to a healthcare professional if they are regular and severe.",
+    "pain": "Pain is usual during periods. Use pain killers or hot bags. Drink hot water or green tea for comfort.",
     "pelvic pain": "Pelvic discomfort is frequent as your uterine lining sheds. However, if it's sharp or sudden, monitor it closely and rest.",
     
     # Blood Color & Texture
-    "blood is dark": "Dark brown or black blood is completely normal. It usually means the blood is older and took longer to exit the uterus, often happening at the very beginning or end of your period.",
-    "brown blood": "Brown blood is just old blood that has oxidized. It is very common at the start or end of your cycle.",
-    "bright red blood": "Bright red blood means the blood is fresh and flowing quickly. This is normal, especially during the heaviest days of your period.",
-    "pink blood": "Pinkish discharge or blood often happens at the very beginning of your period when fresh blood mixes with regular vaginal fluids.",
-    "orange blood": "Orange-tinged discharge can sometimes happen when blood mixes with cervical fluid, but it can also be a sign of an infection. Keep an eye on it.",
-    "grey blood": "Greyish discharge, especially if accompanied by a strong odor or clumps, can be a sign of an infection like BV. It is best to see a doctor.",
+    "dark": "Dark brown or black blood is completely normal. It usually means the blood is older and took longer to exit the uterus, often happening at the very beginning or end of your period.",
+    "brown": "Brown blood is just old blood that has oxidized. It is very common at the start or end of your cycle.",
+    "bright red": "Bright red blood means the blood is fresh and flowing quickly. This is normal, especially during the heaviest days of your period.",
+    "pink": "Pinkish discharge or blood often happens at the very beginning of your period when fresh blood mixes with regular vaginal fluids.",
+    "orange": "Orange-tinged discharge can sometimes happen when blood mixes with cervical fluid, but it can also be a sign of an infection. Keep an eye on it.",
+    "grey": "Greyish discharge, especially if accompanied by a strong odor or clumps, can be a sign of an infection like BV. It is best to see a doctor.",
     "clots": "Passing small blood clots (size of a dime or smaller) is totally normal, especially on heavy days. It's just your body's anti-coagulants keeping up with a fast flow.",
     "large clots": "If you are consistently passing blood clots larger than a quarter, it's recommended to consult a doctor or gynecologist.",
-    "stringy blood": "Stringy or jelly-like blood is just a mix of blood and endometrial tissue/mucus, which is standard during a period.",
+    "blood": "Pleas tell which color, texture or clots of blood you see.",
+    "stringy": "Stringy or jelly-like blood is just a mix of blood and endometrial tissue/mucus, which is standard during a period.",
 
     # Flow Vagaries
     "heavy flow": "A heavy flow is common in the first 2-3 days. However, if you soak through a pad or tampon every hour for several consecutive hours, consult a healthcare provider.",
