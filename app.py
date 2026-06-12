@@ -129,7 +129,7 @@ else:
 st.divider()
 
 # SECTION CHATBOT
-st.header("💬 Ask FlowBuddy")
+st.header("💬 Ask Monthly Friend")
 st.caption("Type in keywords like *'cramps'*, *'blood is dark'*, *'mood swings'*, or just say *'hi'*!")
 
 # Chat Input Component
