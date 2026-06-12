@@ -3,9 +3,10 @@ import datetime
 
 # --- PAGE CONFIGURATION ---
 st.set_page_config(
-    page_title="Monthly Friend" - Period Tracker & Chatbot",
+    page_title="Monthly Friend - Period Tracker & Chatbot",
     page_icon="🩸",
-    layout="centered")
+    layout="centered"
+)
 
 # --- CUSTOM CSS FOR BETTER VISUALS ---
 st.markdown("""
