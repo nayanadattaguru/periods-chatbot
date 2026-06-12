@@ -81,7 +81,7 @@ FAQ_RESPONSES = {
     "fatigue": "Feeling exhausted? Your body is working hard! Prioritize sleep, eat iron-rich foods, and avoid over-exerting yourself.",
     "acne": "Hormonal breakouts along the jawline and chin are classic before a period. Keep your skin clean and hydrated, and try not to pop them.",
     "pimple": "Hormonal breakouts along the jawline and chin are classic before a period. Keep your skin clean and hydrated, and try not to pop them.",
-    "vomiting": "It is completely normal due to hormonal changes. Try smelling some lemons to sstop the sensation and consult a doctor if serious.",
+    "vomiting": "It is completely normal due to hormonal changes. Try smelling some lemons to stop the sensation and consult a doctor if serious.",
     "sensation": "Stop everything for a while and sit/sleep. Drink plenty of water",
     "nausea": "Nausea can be caused by prostaglandins, the same chemicals that cause uterine contractions. Ginger tea or peppermint can calm your stomach.",
     "diarrhea": "Period poops' are real! Prostaglandins can cause your bowels to contract along with your uterus. Stay hydrated and eat bland foods.",
