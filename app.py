@@ -31,7 +31,7 @@ st.markdown("""
 # --- The Prompts ---
 FAQ_RESPONSES = {
     # Greetings & Essentials
-    "hi": "Hello! I'm FlowBuddy, your period tracking assistant. How can I help you today?",
+    "hi": "Hello! I'm Monthly Friend, your period tracking assistant. How can I help you today?",
     "hello": "Hi there! Hope you're doing well. What's on your mind today?",
     "hey": "Hey! I'm here to answer any period or tracking questions you have.",
     "bye": "Goodbye! Take care of yourself, and see you next month!",
