@@ -58,7 +58,7 @@ FAQ_RESPONSES = {
     "grey": "Greyish discharge, especially if accompanied by a strong odor or clumps, can be a sign of an infection like BV. It is best to see a doctor.",
     "clots": "Passing small blood clots (size of a dime or smaller) is totally normal, especially on heavy days. It's just your body's anti-coagulants keeping up with a fast flow.",
     "large clots": "If you are consistently passing blood clots larger than a quarter, it's recommended to consult a doctor or gynecologist.",
-    "blood": "Pleas tell which color, texture or clots of blood you see.",
+    "blood": "Please tell which color, texture or clots of blood you see.",
     "stringy": "Stringy or jelly-like blood is just a mix of blood and endometrial tissue/mucus, which is standard during a period.",
 
     # Flow Vagaries
@@ -98,8 +98,8 @@ FAQ_RESPONSES = {
     "how long is a cycle": "A normal menstrual cycle averages 28 days, but anything between 21 and 35 days is considered perfectly healthy and normal.",
     "what is ovulation": "Ovulation is when an egg is released from the ovary. It usually happens around 14 days before your next period starts, marking your most fertile window.",
     "can i get pregnant on my period": "While the chances are low, it is still possible to get pregnant during your period, especially if you have a short menstrual cycle.",
-    "exercise on period": "Yes! Light exercise like walking, swimming, or yoga can actually help reduce cramps and boost your mood via endorphins.",
-    "swim on period": "Absolutely! You can swim safely by using a tampon, menstrual cup, or period-proof swimwear. Pads will absorb water and won't work.",
+    "exercise": "Yes! Light exercise like walking, swimming, or yoga can actually help reduce cramps and boost your mood via endorphins.",
+    "swim": "Absolutely! You can swim safely by using a tampon, menstrual cup, or period-proof swimwear. Pads will absorb water and won't work.",
     "hygiene": "Change your pads or tampons every 4-6 hours (or sooner if heavy) to prevent bacteria buildup and stay fresh.",
     "smell": "A mild metallic smell is completely normal because of iron in the blood. However, a strong fishy or foul odor might point to an infection.",
 }
