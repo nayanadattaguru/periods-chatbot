@@ -3,7 +3,7 @@ import datetime
 
 # --- PAGE CONFIGURATION ---
 st.set_page_config(
-    page_title="Monthly Friend - Period Tracker & Chatbot",
+    page_title="Menova - Period Tracker & Chatbot",
     page_icon="🩸",
     layout="centered"
 )
@@ -40,13 +40,13 @@ FAQ_RESPONSES = {
     "thank you": "Happy to help! Take care.",
     
     # Cramps & Pain
-    "i have cramps": "Menstrual cramps are very common. Try using a warm heating pad on your abdomen, taking a warm bath, or drinking herbal teas like chamomile or ginger.",
+    "cramps": "Menstrual cramps are very common. Try using a warm heating pad on your abdomen, taking a warm bath, or drinking herbal teas like chamomile or ginger. To avoid cramps, do regular exercise, yoga and eat vegetables.",
     "bad cramps": "Severe cramps can be tough. If over-the-counter pain relievers or heat pads don't help, or if the pain prevents you from doing daily activities, it's a good idea to consult a doctor.",
     "stomach pain": "Lower abdominal pain is standard during periods due to the uterus contracting. Light stretching and staying warm can help ease the tension.",
     "back pain": "Lower back pain during periods is caused by hormonal shifts (progestins). Gentle yoga poses like Child's Pose or Cat-Cow can offer relief.",
     "headache": "Hormonal headaches are common before or during your period due to dropping estrogen levels. Stay hydrated and rest in a dim room.",
     "migraine": "Menstrual migraines can be intense. Avoid bright screens, drink water, and speak to a healthcare professional if they are regular and severe.",
-    "pain": "Pain is usual during periods. Use pain killers or hot bags. Drink hot water or green tea for comfort.",
+    "pain": "Pain is usual during periods. Use pain killers or hot bags. Drink hot water or green tea for comfort. To avoid pain in your next periods; do light exercises, yoga and eat fruits and veggies everyday!",
     "pelvic pain": "Pelvic discomfort is frequent as your uterine lining sheds. However, if it's sharp or sudden, monitor it closely and rest.",
     
     # Blood Color & Texture
@@ -77,9 +77,9 @@ FAQ_RESPONSES = {
     "pms": "Premenstrual Syndrome (PMS) includes mood swings, bloating, and fatigue. Be gentle with yourself, practice self-care, and get enough sleep.",
     "mood swings": "Feeling emotional, irritable, or anxious is normal due to shifting estrogen and progesterone. Remember, it's just your hormones talking!",
     "irritated": "Feeling frustrated is just due to your hormones. Have a chocolate or just sleep for a while, everything is gonna be okay!",
-    "sad": "Awww! Cheer up girl! These hormones trouble you a lot I see. Just Netflix and chill for a while :D",
+    "sad": "Awww! Cheer up girl! These hormones trouble you a lot I see. Before your next periods, try to be more active and eat healthy food. For now, just Netflix and chill for a while :D",
     "depressed": "Hey girl this is no time to be depressed! Check this out:\n Q: Why are tampon commercials so unrealistic?\n A: Nobody does cartwheels in white pants during a crime scene.",
-    "happy": "Good to hear that! To make yourself more happy, eat some chocolate and chips (but in moderation please) :D",
+    "happy": "Good to hear that! Hope the happiness stays forever :D",
     "fatigue": "Feeling exhausted? Your body is working hard! Prioritize sleep, eat iron-rich foods, and avoid over-exerting yourself.",
     "acne": "Hormonal breakouts along the jawline and chin are classic before a period. Keep your skin clean and hydrated, and try not to pop them.",
     "pimple": "Hormonal breakouts along the jawline and chin are classic before a period. Keep your skin clean and hydrated, and try not to pop them.",
@@ -105,7 +105,7 @@ FAQ_RESPONSES = {
 }
 
 # APPLICATION INTERFACE
-st.title("🩸 Monthly Friend")
+st.title("🩸 Menova")
 st.subheader("Your Period Tracker & Friendly Chat Assistant")
 st.write("Track your cycles easily and ask Monthly Friend any questions about your period or symptoms.")
 
@@ -139,7 +139,7 @@ else:
 st.divider()
 
 # --- SECTION 2: CHATBOT ---
-st.header("💬 Ask Monthly Friend")
+st.header("💬 Ask Menova")
 st.caption("Type in keywords like *'cramps'*, *'blood is dark'*, *'mood swings'*, or just say *'hi'*!")
 
 # 1. Initialize chat history in session state if it doesn't exist yet
@@ -165,7 +165,7 @@ if user_query:
     clean_query = user_query.lower().strip().replace("?", "").replace(".", "")
     
     # Generate bot response
-    bot_response = "I'm not quite sure about that specific phrase. Try asking Monthly Friend about symptoms like *cramps*, *heavy flow*, *dark blood*, *bloating*, or *mood swings*!"
+    bot_response = "I'm not quite sure about that specific phrase. Try asking Menova about symptoms like *cramps*, *heavy flow*, *dark blood*, *bloating*, or *mood swings*!"
     
     # Keyword matching system
     for key, response in FAQ_RESPONSES.items():
@@ -181,4 +181,4 @@ if user_query:
 
 # --- DISCLAIMER ---
 st.divider()
-st.caption("⚠️ **Disclaimer:** Monthly Friend is an informational tool and does not replace professional medical advice. If you experience severe pain, extremely irregular cycles, or have health concerns, please consult a healthcare professional.")
+st.caption("⚠️ **Disclaimer:** Menova is an informational tool and does not replace professional medical advice. If you experience severe pain, extremely irregular cycles, or have health concerns, please consult a healthcare professional.")
