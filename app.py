@@ -192,7 +192,7 @@ if user_query:
     bot_response = None
 
     # Dynamic check for upcoming period questions using tracker data
-    upcoming_triggers = ["period in", "starting in", "what should i do", "upcoming period", "period coming", "periods in", "is in"]
+    upcoming_triggers = ["period in", "starting in", "what should i do", "upcoming period", "period coming", "periods in", "is in", "left"]
     if any(trigger in clean_query for trigger in upcoming_triggers):
         if days_left > 0:
             bot_response = (
