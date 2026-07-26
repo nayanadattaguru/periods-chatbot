@@ -100,6 +100,7 @@ FAQ_RESPONSES = {
     
     # Menopause & Perimenopause
     "burning": "Chronically low estrogen during menopause tricks the brain's thermostat into thinking you're overheating, causing hot flashes 🔥!",
+    "menopausal": "Common menopausal issues include hot flashes 🔥, night sweats 🌙, sleep trouble 😴, mood shifts 💖, and joint stiffness 🦴. You can manage them by staying hydrated 💧, wearing breathable layers, exercising regularly 🧘‍♀️, and consulting a doctor for remedies🩺.",
     "menopause": "Menopause marks the end of menstrual cycles, officially diagnosed after 12 months without a period 🌸. Common symptoms include hot flashes 🔥, mood changes, and sleep disruptions 🌙.",
     "perimenopause": "Perimenopause is the transition phase leading up to menopause ✨. Cycles may become irregular, and symptoms like hot flashes or mood swings can begin.",
     "hot flashes": "Hot flashes are sudden feelings of heat, mostly in the face, neck, and chest 🔥. Wearing layered clothing 🧥, staying cool, and avoiding spicy foods 🌶️ can help ease them.",
