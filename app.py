@@ -46,6 +46,7 @@ FAQ_RESPONSES = {
     "back pain": "Lower back pain during periods is caused by hormonal shifts (progestins) 💆‍♀️. Gentle yoga poses like Child's Pose or Cat-Cow can offer relief.",
     "headache": "Hormonal headaches are common before or during your period due to dropping estrogen levels 🤕. Stay hydrated and rest in a dim room 🌙.",
     "migraine": "Menstrual migraines can be intense 😣. Avoid bright screens 📱, drink plenty of water, and speak to a healthcare professional if they are regular and severe 🩺.",
+    "head": "A heavy spinning head is a classic 🌀. Drink water and take rest 😴. Take a pain reliever or go to a doctor if serious 🩺.",
     "pain": "Pain is usual during periods 💕. Use pain killers or hot bags. Drink hot water or green tea 🍵 for comfort. To avoid pain in your next periods, do light exercises, yoga 🧘‍♀️ and eat fruits and veggies everyday! 🍎🥦",
     "pelvic pain": "Pelvic discomfort is frequent as your uterine lining sheds. However, if it's sharp or sudden, monitor it closely and get some rest 🛋️.",
     
@@ -96,8 +97,7 @@ FAQ_RESPONSES = {
     "cravings": "Craving carbs or chocolate? 🍫 Your basal metabolic rate rises slightly before your period, making you hungrier 🍕! Enjoy your treats in moderation ✨.",
     "insomnia": "Difficulty sleeping can happen right before your period due to drops in progesterone 🌙. Try a relaxing bedtime routine without screens 📱.",
     "dizziness": "Mild dizziness can happen due to dehydration, cramping pain, or a slight drop in blood pressure 💧. Sit down, drink water, and rest 🛋️.",
-    "head": "A heavy spinning head is a classic 🌀. Drink water and take rest 😴. Take a pain reliever or go to a doctor if serious 🩺.",
-
+    
     # Menopause & Perimenopause
     "burning": "Chronically low estrogen during menopause tricks the brain's thermostat into thinking you're overheating, causing hot flashes 🔥!",
     "menopause": "Menopause marks the end of menstrual cycles, officially diagnosed after 12 months without a period 🌸. Common symptoms include hot flashes 🔥, mood changes, and sleep disruptions 🌙.",
