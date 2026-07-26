@@ -58,9 +58,9 @@ FAQ_RESPONSES = {
     "grey": "Greyish discharge, especially if accompanied by a strong odor or clumps, can be a sign of an infection like BV 🩺. It is best to see a doctor.",
     "clots": "Passing small blood clots (size of a dime or smaller) is totally normal, especially on heavy days 🩸. It's just your body's anti-coagulants keeping up with a fast flow.",
     "large clots": "If you are consistently passing blood clots larger than a quarter, it's recommended to consult a doctor or gynecologist 🩺.",
-    "blood": "Please tell me which color, texture, or clots of blood you see 🩸👀.",
     "stringy": "Stringy or jelly-like blood is just a mix of blood and endometrial tissue/mucus, which is standard during a period 🌸.",
     "black": "Black blood is just the older blood getting expelled during slow flow days 🖤. Your body is just cleaning itself, however if the flow is heavy, please consult a gynecologist.",
+    "blood": "Please tell me which color, texture, or clots of blood you see 🩸👀.",
 
     # Flow Vagaries
     "heavy": "A heavy flow is common in the first 2-3 days 🌊. However, if you soak through a pad or tampon every hour for several consecutive hours, consult a healthcare provider 🩺.",
@@ -74,6 +74,7 @@ FAQ_RESPONSES = {
     "short period": "Periods lasting only 1-2 days can happen due to stress, hormonal shifts, or birth control. It's usually nothing to worry about if it happens occasionally 😊.",
 
     # Symptoms & Mood
+    "burning sensation": "A burning sensation during your period or while urinating is not typical for a period and often indicates a UTI or infection. Please consult a doctor for a quick checkup! 🩺",
     "cold": "Feeling unusually cold during your period is common! Drops in estrogen can mess with your body's thermostat, and low iron (from blood loss) can also make you feel chilly. Stay warm with hot teas, cozy blankets, and iron-rich foods ☕ blankets!",
     "chilly": "Feeling chilly during your period is often due to shifting hormone levels or mild iron dips from bleeding. Grab a hot water bottle, sip warm drinks 🍵, and keep your feet extra warm 🧦!",
     "bloating": "Bloating is caused by water retention due to changing progesterone levels 💧. Reducing salt intake and drinking more water can surprisingly help reduce it!",
