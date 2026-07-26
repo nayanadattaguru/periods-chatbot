@@ -40,14 +40,14 @@ FAQ_RESPONSES = {
     "thank you": "Happy to help! 💕 Take care.",
     
     # Cramps & Pain
-    "cramps": "Menstrual cramps are very common 😣. Try using a warm heating pad 🧺 on your abdomen, taking a warm bath, or drinking herbal teas like chamomile or ginger 🍵. To avoid cramps, do regular exercise, yoga 🧘‍♀️ and eat fresh veggies 🥦!",
+    "cramps": "Menstrual cramps are very common 😣. Try using a warm heating pad on your abdomen, taking a warm bath, or drinking herbal teas like chamomile or ginger 🍵. To avoid cramps, do regular exercise, yoga 🧘‍♀️ and eat fresh veggies 🥦!",
     "bad cramps": "Severe cramps can be tough 🥺. If over-the-counter pain relievers or heat pads don't help, or if the pain prevents you from doing daily activities, it's a good idea to consult a doctor 🩺.",
     "stomach pain": "Lower abdominal pain is standard during periods due to the uterus contracting 🌸. Light stretching and staying warm can help ease the tension.",
     "back pain": "Lower back pain during periods is caused by hormonal shifts (progestins) 💆‍♀️. Gentle yoga poses like Child's Pose or Cat-Cow can offer relief.",
-    "headache": "Hormonal headaches are common before or during your period due to dropping estrogen levels 🤕. Stay hydrated 💧 and rest in a dim room 🌙.",
+    "headache": "Hormonal headaches are common before or during your period due to dropping estrogen levels 🤕. Stay hydrated and rest in a dim room 🌙.",
     "migraine": "Menstrual migraines can be intense 😣. Avoid bright screens 📱, drink plenty of water, and speak to a healthcare professional if they are regular and severe 🩺.",
-    "pain": "Pain is usual during periods 💕. Use pain killers or hot bags 🧺. Drink hot water or green tea 🍵 for comfort. To avoid pain in your next periods, do light exercises, yoga 🧘‍♀️ and eat fruits and veggies everyday! 🍎🥦",
-    "pelvic pain": "Pelvic discomfort is frequent as your uterine lining sheds ✨. However, if it's sharp or sudden, monitor it closely and get some rest 🛋️.",
+    "pain": "Pain is usual during periods 💕. Use pain killers or hot bags. Drink hot water or green tea 🍵 for comfort. To avoid pain in your next periods, do light exercises, yoga 🧘‍♀️ and eat fruits and veggies everyday! 🍎🥦",
+    "pelvic pain": "Pelvic discomfort is frequent as your uterine lining sheds. However, if it's sharp or sudden, monitor it closely and get some rest 🛋️.",
     
     # Blood Color & Texture
     "dark": "Dark brown or black blood is completely normal! 🤎 It usually means the blood is older and took longer to exit the uterus, often happening at the very beginning or end of your period.",
@@ -60,10 +60,11 @@ FAQ_RESPONSES = {
     "large clots": "If you are consistently passing blood clots larger than a quarter, it's recommended to consult a doctor or gynecologist 🩺.",
     "blood": "Please tell me which color, texture, or clots of blood you see 🩸👀.",
     "stringy": "Stringy or jelly-like blood is just a mix of blood and endometrial tissue/mucus, which is standard during a period 🌸.",
+    "black": "Black blood is just the older blood getting expelled during slow flow days 🖤. Your body is just cleaning itself, however if the flow is heavy, please consult a gynecologist.",
 
     # Flow Vagaries
-    "heavy flow": "A heavy flow is common in the first 2-3 days 🌊. However, if you soak through a pad or tampon every hour for several consecutive hours, consult a healthcare provider 🩺.",
-    "light flow": "A light flow or 'scanty period' is common, especially if you are on hormonal birth control, stressed 😰, or near the end of your cycle ✨.",
+    "heavy": "A heavy flow is common in the first 2-3 days 🌊. However, if you soak through a pad or tampon every hour for several consecutive hours, consult a healthcare provider 🩺.",
+    "light": "A light flow or 'scanty period' is common, especially if you are on hormonal birth control, stressed 😰, or near the end of your cycle ✨.",
     "spotting": "Spotting is light bleeding that happens outside your normal period 🩸. It can be caused by ovulation, stress, or starting a new birth control.",
     "no period": "A missed period can happen due to stress 😰, sudden weight changes, intense exercise, hormonal imbalances, or pregnancy 🤰. See a doctor if it misses for 3 cycles 🩺.",
     "late period": "Cycles can fluctuate! ⏳ A period is generally considered late if it hasn't started 5 or more days after it was expected. Stress is a huge factor 💭!",
@@ -73,10 +74,12 @@ FAQ_RESPONSES = {
     "short period": "Periods lasting only 1-2 days can happen due to stress, hormonal shifts, or birth control. It's usually nothing to worry about if it happens occasionally 😊.",
 
     # Symptoms & Mood
+    "cold": "Feeling unusually cold during your period is common! Drops in estrogen can mess with your body's thermostat, and low iron (from blood loss) can also make you feel chilly. Stay warm with hot teas, cozy blankets, and iron-rich foods ☕ blankets!",
+    "chilly": "Feeling chilly during your period is often due to shifting hormone levels or mild iron dips from bleeding. Grab a hot water bottle, sip warm drinks 🍵, and keep your feet extra warm 🧦!",
     "bloating": "Bloating is caused by water retention due to changing progesterone levels 💧. Reducing salt intake and drinking more water can surprisingly help reduce it!",
     "pms": "Premenstrual Syndrome (PMS) includes mood swings, bloating, and fatigue 💆‍♀️. Be gentle with yourself, practice self-care 🧘‍♀️, and get enough sleep 😴.",
     "mood swings": "Feeling emotional, irritable, or anxious is normal due to shifting estrogen and progesterone 💖. Remember, it's just your hormones talking!",
-    "irritated": "Feeling frustrated is just due to your hormones 😤. Have some chocolate 🍫 or just sleep for a while 😴, everything is gonna be okay! 💕",
+    "irritated": "Feeling frustrated is just due to your hormones 😤. Have some dark chocolate 🍫 or just sleep for a while, everything is gonna be okay! 💕",
     "sad": "Awww! Cheer up girl! 🥹 These hormones trouble you a lot I see. Before your next period, try to be more active and eat healthy food 🥗. For now, just Netflix and chill for a while! 🍿🎬 :D",
     "depressed": "Hey girl, this is no time to be depressed! Check this out: 😂\n Q: Why are tampon commercials so unrealistic?\n A: Nobody does cartwheels in white pants during a crime scene! 👖🩸",
     "happy": "Good to hear that! 🥳 Hope the happiness stays forever! ✨ :D",
@@ -95,6 +98,7 @@ FAQ_RESPONSES = {
     "head": "A heavy spinning head is a classic 🌀. Drink water and take rest 😴. Take a pain reliever or go to a doctor if serious 🩺.",
 
     # Menopause & Perimenopause
+    "hot cold": "A sudden estrogen drop before your period causes chilly feelings 🥶, but chronically low estrogen during menopause tricks the brain's thermostat into thinking you're overheating, causing hot flashes 🔥!",
     "menopause": "Menopause marks the end of menstrual cycles, officially diagnosed after 12 months without a period 🌸. Common symptoms include hot flashes 🔥, mood changes, and sleep disruptions 🌙.",
     "perimenopause": "Perimenopause is the transition phase leading up to menopause ✨. Cycles may become irregular, and symptoms like hot flashes or mood swings can begin.",
     "hot flashes": "Hot flashes are sudden feelings of heat, mostly in the face, neck, and chest 🔥. Wearing layered clothing 🧥, staying cool, and avoiding spicy foods 🌶️ can help ease them.",
@@ -105,12 +109,14 @@ FAQ_RESPONSES = {
     "joint pain": "Hormonal changes during menopause can cause joint stiffness or pain 🦴. Staying active with low-impact exercises like walking 🚶‍♀️ or swimming 🏊‍♀️ can keep joints flexible.",
     "brain fog": "Mild forgetfulness or trouble concentrating can happen during perimenopause due to changing hormone levels 🧠. Prioritizing rest, exercise, and staying mentally active helps ✨.",
     "remedies": "Menopause symptoms can be managed through lifestyle adjustments 🥗 (regular exercise, balanced diet, cool environments) or medical options like HRT (Hormone Replacement Therapy) after consulting a doctor 🩺.",
-    
-    # Basic Perimenopause & Menopause Terms
-    "gained weight": "Metabolic changes and dropping estrogen levels during menopause can make it easier to gain weight, especially around the midsection ⚖️. Staying active helps! 🏃‍♀️",
-    "weight gain": "Metabolic changes and dropping estrogen levels during menopause can make it easier to gain weight, especially around the midsection ⚖️. Staying active helps! 🏃‍♀️",
+    "gained weight": "Metabolic changes and dropping estrogen levels during menopause can make it easier to gain weight, especially around the trunk and waist. Staying active helps! 🏃‍♀️",
+    "weight gain": "Metabolic changes and dropping estrogen levels during menopause can make it easier to gain weight, especially around the midsection. Staying active helps! 🏃‍♀️",
     "dry skin": "As collagen decreases during menopause, skin might feel drier or lose elasticity 🧴. Keeping skin hydrated and using gentle moisturizers can help ✨.",
     "moody": "Frequent mood shifts or irritability are very common during perimenopause due to fluctuating estrogen levels affecting brain chemistry 💖.",
+    "hot": "Feeling hot during menopausal stages is due to dropping estrogen levels confuse the thermostat in the brain, causing a false alarm that the body is overheating🔥",
+    "forget": "Mild forgetfulness during perimenopause is due to hormonal imbalances. Just rest well, stay mentally active, and do light exercises. Don't overdo anything!",
+    "swell": "Hormonal shifts during menopause can cause fluid retention, leading to temporary swelling in your stomach, fingers, underarms or ankles 💧. Staying hydrated and reducing salt helps!",
+    "size": "As estrogen drops during menopause, fat distribution changes toward the trunk, which can make your body size feel different even without major diet changes.",
     "low estrogen": "Estrogen levels naturally decline as you approach menopause 📉. This decrease is the primary driver behind hot flashes 🔥, sleep shifts 🌙, and cycle changes 🌸.",
 
     # General Tracking & Questions
@@ -184,7 +190,7 @@ if user_query:
     bot_response = None
 
     # Dynamic check for upcoming period questions using tracker data
-    upcoming_triggers = ["period in", "starting in", "what should i do", "upcoming period", "period coming"]
+    upcoming_triggers = ["period in", "starting in", "what should i do", "upcoming period", "period coming", "periods in"]
     if any(trigger in clean_query for trigger in upcoming_triggers):
         if days_left > 0:
             bot_response = (
@@ -203,7 +209,7 @@ if user_query:
         else:
             bot_response = f"According to your tracker, your period is potentially **{abs(days_left)} days late** ⚠️. Minor variations are common due to stress or routine shifts ✨."
 
-    # Original keyword matching system
+    # Keyword matching system
     if not bot_response:
         for key, response in FAQ_RESPONSES.items():
             if key in clean_query:
